@@ -23,12 +23,7 @@
   <header class="site-header">
     <div class="inner-column">
       <div class="masthead">
-        <a href="
-        <?php
-        $url = home_url($path = '/', $scheme = 'https');
-        echo $url;
-        ?>
-        ">
+        <a href="/">
           <my-logo>
 
             <svg viewBox="0 0 401 151">
@@ -36,7 +31,11 @@
             </svg>
           </my-logo>
         </a>
-        <?php include("templates/components/site-menu.php") ?>
+        <nav id="site-menu" class="site-menu">
+          <a href="/" class="site-link"><span>Home</span></a>
+          <a href="/my-work" class="site-link"><span>My Work</span></a>
+          <a href="/writing" class="site-link"><span>Writing</span></a>
+          </nav>
       </div>
     </div>
   </header>
