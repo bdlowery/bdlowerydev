@@ -10,7 +10,7 @@
   <meta property=" og:image" content="[[meta image source]]" />
 
 
-
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
 
   <meta name="theme-color" content="#333333">
 
