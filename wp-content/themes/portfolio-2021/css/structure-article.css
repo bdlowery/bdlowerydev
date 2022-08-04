@@ -1,0 +1,92 @@
+/* article .text-module + .text-module {
+  margin-top: 80px;
+}
+
+article .text-module + .goal-module {
+  margin-top: 40px;
+}
+
+article .goal-module + .picture-module {
+  margin-top: 40px;
+} */
+
+article section section + section {
+  margin-top: 80px;
+}
+
+article h2 + p {
+  margin-top: 15px;
+}
+article p + h2 {
+  margin-top: 15px;
+}
+
+article .picture-module .inner-column h2 + picture {
+  margin-top: 15px;
+}
+
+article .figure-module .inner-column figure picture + figcaption,
+article .figure-module .inner-column h2 + figure {
+  margin-top: 15px;
+}
+
+article .picture-module .inner-column picture + p {
+  margin-top: 30px;
+}
+
+article .picture-module .inner-column p + picture {
+  margin-top: 30px;
+}
+
+article .list-module .inner-column h2 + p {
+  margin-top: 15px;
+}
+
+article .list-module .inner-column p + ul {
+  margin-top: 15px;
+}
+article .list-module .inner-column ul + p {
+  margin-top: 15px;
+}
+
+article .inner-column ul + p,
+article .inner-column p + ul,
+article .inner-column ol + p,
+article .inner-column p + ol {
+  margin-top: 20px;
+}
+
+article p + p {
+  margin-top: 15px;
+}
+
+article h2 + h3 {
+  margin-top: 30px;
+}
+
+article h3 + p {
+  margin-top: 15px;
+}
+
+article p + h3,
+article .inner-column ol + h3 {
+  margin-top: 30px;
+}
+
+article p + h4 {
+  margin-top: 30px;
+}
+
+article h4 + p {
+  margin-top: 15px;
+}
+
+article ul li + li,
+article ol li + li {
+  margin-top: 10px;
+}
+
+article .code-toolbar + p,
+article p + .code-toolbar {
+  margin-top: 15px;
+}

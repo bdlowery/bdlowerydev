@@ -23,8 +23,7 @@
 !/wp-content/themes
 /wp-content/themes/*
 
-!/wp-content/themes/perpetual-2019
-!/wp-content/themes/perpetual-2022
+!/wp-content/themes/portfolio-2021
 
 node_modules
 config.codekit3
