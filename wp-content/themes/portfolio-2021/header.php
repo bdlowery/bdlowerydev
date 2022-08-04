@@ -9,6 +9,11 @@
   <meta name="description" content="Brian Lowery, Web Developer and Designer in California" />
   <meta property=" og:image" content="[[meta image source]]" />
 
+
+
+
+  <meta name="theme-color" content="#333333">
+
   <!-- Styles -->
   <link rel="stylesheet" href="style.css" />
   <?php wp_head(); ?>
