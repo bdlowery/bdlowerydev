@@ -36,7 +36,7 @@
           <a href="/my-work" class="site-link"><span>My Work</span></a>
           <a href="/writing" class="site-link"><span>Writing</span></a>
           <?php if ( current_user_can('administrator') ) { ?>
-            <?php edit_post_link("EDIT", null, null, null, "link"); ?>
+            <?php edit_post_link("EDIT", null, null, null, "site-link"); ?>
           <?php } ?>
           </nav>
       </div>
