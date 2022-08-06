@@ -49,6 +49,10 @@ article .list-module .inner-column ul + p {
   margin-top: 15px;
 }
 
+article .list-module .inner-column h2 + ul {
+  margin-top: 15px;
+}
+
 article .inner-column ul + p,
 article .inner-column p + ul,
 article .inner-column ol + p,

@@ -1,11 +1,17 @@
 <?php
 $figureHeading = get_sub_field("heading");
 $figureImage = get_sub_field("image")["url"];
-$figureAttributionUrl = get_sub_field("attribution")["url"];
-$figureAttributionTitle = get_sub_field("attribution")["title"];
+
+if(get_sub_field("attribution")) {
+  $figureAttributionUrl = get_sub_field("attribution")["url"];
+  $figureAttributionTitle = get_sub_field("attribution")["title"];
+}
+
 $figureCaption = get_sub_field("caption");
-$figureAttributionTest = get_sub_field("attribution");
 $id = get_sub_field("id");
+
+
+
 
 ?>
 <section class="figure-module" id="<?= $id ?>">
@@ -20,7 +26,7 @@ $id = get_sub_field("id");
 
         <?php
 
-        if (!empty($figureAttributionUrl) && !empty($figureAttributionUrl)) { ?>
+        if (!empty($figureAttributionUrl) && !empty($figureAttributionTitle)) { ?>
           <a href="<?= esc_url($figureAttributionUrl); ?>"><?= esc_html($figureAttributionTitle) ?></a>
 
         <?php }; ?>

@@ -7,16 +7,23 @@ $hasIntro = get_sub_field("has_intro");
 $intro = get_sub_field("intro");
 
 $hasSecondImage = get_sub_field("has_second_image");
-$secondImage = get_sub_field("second_image")["url"];
-$secondDescription = get_sub_field("second_description");
+if($hasSecondImage) {
+  $secondImage = get_sub_field("second_image")["url"];
+  $secondDescription = get_sub_field("second_description");
+}
 
 $hasThirdImage = get_sub_field("has_third_image");
-$thirdImage = get_sub_field("third_image")["url"];
-$thirdDescription = get_sub_field("third_description");
+if($hasThirdImage) {
+  $thirdImage = get_sub_field("third_image")["url"];
+  $thirdDescription = get_sub_field("third_description");
+}
 
 $hasFourthImage = get_sub_field("has_fourth_image");
-$fourthImage = get_sub_field("fourth_image")["url"];
-$fourthDescription = get_sub_field("fourth_description");
+
+if($hasFourthImage) {
+  $fourthImage = get_sub_field("fourth_image")["url"];
+  $fourthDescription = get_sub_field("fourth_description");
+}
 
 $id = get_sub_field("id");
 ?>

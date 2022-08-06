@@ -25,21 +25,26 @@ Use it to make something cool, have fun, and share what you've learned with othe
   --black: #000000;
   --black-transparent: hsla(0, 0%, 0%, 0.2);
   --box-shadow: var(--black-transparent);
+  
   --primary: #279cde;
   --primary-light: #6bb7e3;
   --primary-lighter: #afe2ff;
   --primary-dark: #1f77ab;
   --primary-darker: #0f425e;
+
   --accent: #d57b02;
   --accent-light: #ffa32c;
   --accent-dark: #b86801;
   --accent-darker: #6f3f01;
+
   --primary-neutral-lightest: #eef4f8;
   --primary-neutral-lighter: #e2eaf0;
   --primary-neutral-light: #a2a8ac;
+
   --primary-neutral: #7a848a;
   --primary-neutral-dark: #5f666a;
   --primary-neutral-darker: #33383b;
+
   --accent-neutral-light: #a0968b;
   --accent-neutral: #776d61;
   --accent-neutral-dark: #655d53;
