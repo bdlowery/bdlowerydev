@@ -5,9 +5,11 @@
   </div>
 </header>
 <?php
+// 46 == Projects
+// 26 == Experiments
 $parameters = array(
   "post_type" => "project-type",
-  "post__not_in" => array(46),
+  "post__not_in" => array(46, 26),
   "orderby" => "ID",
   "order" => "ASC",
 );

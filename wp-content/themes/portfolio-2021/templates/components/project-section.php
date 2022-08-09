@@ -3,6 +3,7 @@ $sectionTitle = get_field("section_title");
 $sectionDescription = get_field("section_description");
 
 ?>
+
 <section class="my-work">
   <div class="inner-column">
     <div class="projects-intro">
@@ -30,7 +31,7 @@ $sectionDescription = get_field("section_description");
       ));
 
       if ($cards) {
-        foreach ($cards as $index => $card) {
+        foreach ($cards as $card) {
           include(getfile("templates/components/project-card.php"));
         }
       }
