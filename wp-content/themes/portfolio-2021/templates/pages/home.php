@@ -154,11 +154,11 @@
     </div>
     <div class="extra-information">
       <div class="what-i-want">
-        <h2 class="attention-voice">What I want</h2>
+        <h2 class="attention-voice">What I'm Doing</h2>
         <ul>
-          <li>I'm looking for a paid internship as a Front-End&nbsp;Web&nbsp;Developer.</li>
-          <li>Here's a showcase of all <a href="/my-work">My Work</a></li>
-          <li>If interested, let's get in touch.</li>
+          <li>I'm currently working as a Junior Front-End&nbsp;Web&nbsp;Developer at <a href="https://perpetual.education">Perpetual Education</a></li>
+          <li>Here's all of <a href="/my-work">My Projects</a></li>
+          <li>I like to <a href="/writing">write</a> too</li>
         </ul>
       </div>
 
