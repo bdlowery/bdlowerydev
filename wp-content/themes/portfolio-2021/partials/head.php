@@ -13,7 +13,12 @@
       $pageDescription = "Thinking of a page description is hard! Send me on twitter @bdlowery2 :D";
     }
 
-  $metaImage = get_field('page_share');
+
+  if( get_field('page_share_image') ) {
+    $metaImage = get_field('page_share_image');
+  } else {
+    $metaImage = 'https://bdlowery.dev/wp-content/uploads/meta-image.jpg';
+  }
 
 ?>
 
@@ -21,13 +26,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title><?=$pageTitle?></title>
-  <meta name="description" content="<?=$pageDescription?>>" />
-  <meta property=" og:image" content="[[meta image source]]" />
+  <meta name="description" content="<?=$pageDescription?>>">
+  <meta property=" og:image" content="<?=$metaImage?>">
+  <meta property="og:type" content="website">
   <meta property="og:site_name" content="Brian Lowery">
+  <meta property="og:title" content="<?=$pageTitle?>">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#279cde">
 
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-
-  <meta name="theme-color" content="#279cde">
 
   <!-- Styles -->
   <link rel="stylesheet" href="style.css" />
