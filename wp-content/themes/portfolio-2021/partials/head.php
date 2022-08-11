@@ -15,7 +15,7 @@
 
 
   if( get_field('page_share_image') ) {
-    $metaImage = get_field('page_share_image');
+    $metaImage = get_field('page_share_image')['url'];
   } else {
     $metaImage = 'https://bdlowery.dev/wp-content/uploads/meta-image.jpg';
   }
@@ -27,7 +27,7 @@
 
   <title><?=$pageTitle?></title>
   <meta name="description" content="<?=$pageDescription?>>">
-  <meta property=" og:image" content="<?=$metaImage?>">
+  <meta property="og:image" content="<?=$metaImage?>">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Brian Lowery">
   <meta property="og:title" content="<?=$pageTitle?>">
