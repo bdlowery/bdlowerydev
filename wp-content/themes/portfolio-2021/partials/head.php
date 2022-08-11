@@ -35,7 +35,6 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="theme-color" content="#279cde">
 
-  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 
   <!-- Styles -->
   <link rel="stylesheet" href="style.css" />

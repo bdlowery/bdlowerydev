@@ -165,9 +165,9 @@
       <div class="education">
         <h2 class="attention-voice">Education</h2>
         <ul>
-          <li>2nd year Computer Science student at Sacramento State</li>
+          <li>Computer Science student at Sacramento State</li>
+          <li>Associates of Math and Science</li>
           <li>6 month internship at Perpetual Education</li>
-          <li>Completed a 6-month-long Web Design and Web Development bootcamp</li>
         </ul>
       </div>
 
