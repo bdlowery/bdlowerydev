@@ -10,6 +10,10 @@ article .goal-module + .picture-module {
   margin-top: 40px;
 } */
 
+article .page-header p + p {
+  margin-top: 15px;
+}
+
 article section section + section {
   margin-top: 80px;
 }
