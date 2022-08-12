@@ -30,12 +30,8 @@ article .figure-module .inner-column h2 + figure {
   margin-top: 15px;
 }
 
-article .picture-module .inner-column picture + p {
-  margin-top: 30px;
-}
-
-article .picture-module .inner-column p + picture {
-  margin-top: 30px;
+article .picture-module .inner-column picture + p, article .picture-module .inner-column p + picture {
+  margin-top: 60px;
 }
 
 article .list-module .inner-column h2 + p {
@@ -92,5 +88,5 @@ article ol li + li {
 
 article .code-toolbar + p,
 article p + .code-toolbar {
-  margin-top: 15px;
+  margin-top: 30px;
 }
