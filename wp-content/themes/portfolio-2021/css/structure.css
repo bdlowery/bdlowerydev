@@ -82,8 +82,8 @@ footer {
   margin-top: 5px;
 }
 
-.projects-intro + .project-cards {
-  margin-top: 30px;
+.projects-intro + .project-cards, .writing-intro + .writing-cards {
+  margin-top: 60px;
 }
 
 .project-card picture + .stern-voice {
@@ -114,9 +114,6 @@ footer {
   margin-top: 15px;
 }
 
-.writing-intro + .writing-cards {
-  margin-top: 50px;
-}
 
 .writing-text .quiet-voice + .attention-voice {
   margin-top: 5px;
