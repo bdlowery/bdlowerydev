@@ -8,7 +8,12 @@ $name = get_field("name", $featuredCard);
 $projectImage = get_field("project_image", $featuredCard);
 $description = get_field("description", $featuredCard);
 $toolsUsed = get_field("tool", $featuredCard);
-$featuredPermalink = get_permalink($featuredCard);
+
+if(get_field('project_link', $featuredCard)) {
+  $featuredPermalink = get_field('project_link', $featuredCard);
+} else {
+  $featuredPermalink = get_permalink($featuredCard);
+}
 
 if ($projectImage) {
   $projectImage = $projectImage["url"];
