@@ -15,6 +15,7 @@
             </svg>
           </my-logo>
         </a>
+        
         <nav id="site-menu" class="site-menu">
           <a href="/" class="site-link"><span>Home</span></a>
           <a href="/my-work" class="site-link"><span>My Work</span></a>
@@ -22,7 +23,8 @@
           <?php if ( current_user_can('administrator') ) { ?>
             <?php edit_post_link("EDIT", null, null, null, "site-link"); ?>
           <?php } ?>
-          </nav>
+        </nav>
+
       </div>
     </div>
   </header>
