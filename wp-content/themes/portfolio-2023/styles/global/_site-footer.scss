@@ -1,0 +1,50 @@
+footer {
+	font-family: sans-serif;
+	background-color: #000000;
+	color: #ffffff;
+	padding-top: 48px;
+	padding-bottom: 48px;
+
+	ul {
+		@include regular-voice;
+		list-style-type: none;
+		padding-inline-start: 0px;
+	}
+
+	.social-links {
+		font-size: 16px;
+		font-family: sans-serif;
+		display: flex;
+		gap: 12px;
+
+		li:first-of-type {
+			a {
+				padding-left: 0px;
+			}
+		}
+
+		li {
+			a {
+				padding: 10px;
+			}
+		}
+	}
+
+	.account-links {
+		font-size: 16px;
+		font-family: sans-serif;
+	}
+
+	.last-updated {
+		display: block;
+	}
+
+	.social-links + .last-updated {
+		margin-top: 24px;
+	}
+
+	.footer-info {
+		display: flex;
+		justify-content: space-between;
+	}
+}

@@ -1,0 +1,813 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* temp fix without reset on */
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+picture {
+  display: block;
+}
+
+picture img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+p a {
+  display: inline;
+  color: blue;
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: square;
+  padding-inline-start: 20px;
+  line-height: 1.5;
+}
+
+ul a, ol a {
+  text-decoration: underline;
+}
+
+ul a, ol a {
+  display: inline;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+mark {
+  padding: 2px 5px;
+  border-radius: 4px;
+  background: #ffdd33;
+}
+
+.visually-hidden {
+  display: block;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(1px);
+  white-space: nowrap;
+  position: absolute;
+}
+
+/* code {
+  font-family: monospace;
+} */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.page-content {
+  flex: 1;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.inner-column {
+  width: 95%;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 800px) {
+  .inner-column {
+    max-width: 1200px;
+  }
+}
+
+section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+@media (min-width: 800px) {
+  section {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+}
+
+.intro {
+  padding-top: 120px;
+}
+
+/* Scary Halloween */
+@font-face {
+  font-family: "Scary Halloween Font";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("fonts/Scary-Halloween-font.woff2") format("woff2");
+}
+/* inter-700 - latin */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("fonts/inter-v12-latin-700.woff2") format("woff2"), url("fonts/inter-v12-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* inter-700 - latin */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("fonts/inter-v12-latin-regular.woff2") format("woff2"), url("fonts/inter-v12-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+.section-title {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  font-family: sans-serif;
+  font-size: clamp(28px, 1rem + 3vw, 36px);
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.page-id-13 .section-title {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  font-family: sans-serif;
+  font-size: clamp(28px, 1rem + 3vw, 36px);
+  line-height: 1.2;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+
+.intro .casual-intro h1 {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  font-family: sans-serif;
+  font-size: clamp(48px, 1rem + 8vw, 100px);
+  line-height: 1.1;
+  padding: 0.1em 0;
+  font-weight: 700;
+}
+.intro .casual-intro h2 {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  font-family: sans-serif;
+  font-size: clamp(28px, 1rem + 3vw, 36px);
+  line-height: 1.2;
+}
+.intro .casual-intro .scary {
+  font-family: "Scary Halloween Font";
+  display: inline-block;
+  /*     font-family: "Scary Halloween Font"; */
+  font-size: 1.1em;
+  font-family: sans-serif;
+  font-weight: 700;
+  transform: translateY(-1px);
+  background-color: hsl(201deg, 72%, 21%);
+  background-image: linear-gradient(10deg, hsl(201deg, 72%, 21%) 0%, hsl(202deg, 74%, 24%) 5%, hsl(201deg, 76%, 27%) 10%, hsl(201deg, 77%, 30%) 14%, hsl(201deg, 78%, 33%) 19%, hsl(201deg, 79%, 36%) 24%, hsl(202deg, 80%, 39%) 29%, hsl(201deg, 81%, 42%) 33%, hsl(202deg, 83%, 45%) 38%, hsl(201deg, 85%, 48%) 43%, hsl(202deg, 85%, 51%) 48%, hsl(202deg, 87%, 54%) 52%, hsl(202deg, 88%, 57%) 57%, hsl(202deg, 89%, 60%) 62%, hsl(202deg, 90%, 63%) 67%, hsl(202deg, 92%, 66%) 71%, hsl(202deg, 94%, 69%) 76%, hsl(202deg, 94%, 72%) 81%, hsl(202deg, 97%, 75%) 86%, hsl(202deg, 98%, 78%) 90%, hsl(202deg, 98%, 81%) 95%, hsl(202deg, 100%, 84%) 100%);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.intro .extra-information {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 32px;
+}
+.intro .extra-information .what-im-doing h2 {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  font-family: sans-serif;
+  font-size: 24px;
+  line-height: 1.1;
+  font-weight: 700;
+}
+.intro .extra-information .what-im-doing li {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  font-family: "Georgia";
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.intro .extra-information .what-im-doing li em {
+  font-style: italic;
+}
+.intro .extra-information .what-im-doing li strong {
+  font-weight: 700;
+}
+.intro .extra-information .what-im-doing li a {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: #1f77ab;
+}
+.intro .extra-information .what-im-doing li a:hover {
+  text-decoration-color: #000000;
+  color: #1f77ab;
+}
+.intro .extra-information .what-im-doing li sup {
+  font-size: 0.6em;
+  vertical-align: top;
+}
+@media (min-width: 400px) {
+  .intro .extra-information .what-im-doing li {
+    font-size: 1.06rem;
+  }
+}
+@media (min-width: 700px) {
+  .intro .extra-information .what-im-doing li {
+    font-size: 1.12rem;
+  }
+}
+@media (min-width: 700px) {
+  .intro .extra-information .what-im-doing li {
+    font-size: 1.18rem;
+  }
+}
+.intro .extra-information .education h2 {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  font-family: sans-serif;
+  font-size: 24px;
+  line-height: 1.1;
+  font-weight: 700;
+}
+.intro .extra-information .education li {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  font-family: "Georgia";
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.intro .extra-information .education li em {
+  font-style: italic;
+}
+.intro .extra-information .education li strong {
+  font-weight: 700;
+}
+.intro .extra-information .education li a {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: #1f77ab;
+}
+.intro .extra-information .education li a:hover {
+  text-decoration-color: #000000;
+  color: #1f77ab;
+}
+.intro .extra-information .education li sup {
+  font-size: 0.6em;
+  vertical-align: top;
+}
+@media (min-width: 400px) {
+  .intro .extra-information .education li {
+    font-size: 1.06rem;
+  }
+}
+@media (min-width: 700px) {
+  .intro .extra-information .education li {
+    font-size: 1.12rem;
+  }
+}
+@media (min-width: 700px) {
+  .intro .extra-information .education li {
+    font-size: 1.18rem;
+  }
+}
+.intro .extra-information .what-im-doing h2 + ul, .intro .extra-information .education h2 + ul {
+  margin-top: 8px;
+}
+.intro .extra-information .what-im-doing li + li, .intro .extra-information .education li + li {
+  margin-top: 12px;
+}
+.intro .casual-intro + .extra-information {
+  margin-top: 120px;
+}
+@media (min-width: 700px) {
+  .intro .extra-information {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 32px;
+  }
+}
+
+.projects {
+  background-color: #e2eaf0;
+  background-image: url("https://ucarecdn.com/fd4700cb-9201-496e-aa02-408d4a85e756/-/preview/-/quality/smart/-/format/auto/");
+  background-size: 350px auto;
+}
+.projects .featured-projects {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 32px;
+}
+@media (min-width: 760px) {
+  .projects .featured-projects {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (min-width: 960px) {
+  .projects .featured-projects {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.featured-writing .writing-cards {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 32px;
+}
+.featured-writing .writing-card-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+}
+.featured-writing .writing-card-link:hover {
+  transform: scale(1.025);
+  transition: transform 0.3s ease-in-out;
+}
+.featured-writing .writing-card-link:hover h2, .featured-writing .writing-card-link:hover .read-more {
+  color: #1f77ab;
+}
+.featured-writing .article-details time {
+  display: block;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  font-family: sans-serif;
+  font-size: 13px;
+  line-height: 1.1;
+  color: #5f666a;
+  margin-bottom: 8px;
+}
+.featured-writing .article-details .article-title {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  font-family: sans-serif;
+  font-size: 24px;
+  line-height: 1.1;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.featured-writing .article-details .article-description {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  font-family: "Georgia";
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+.featured-writing .article-details .article-description em {
+  font-style: italic;
+}
+.featured-writing .article-details .article-description strong {
+  font-weight: 700;
+}
+.featured-writing .article-details .article-description a {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: #1f77ab;
+}
+.featured-writing .article-details .article-description a:hover {
+  text-decoration-color: #000000;
+  color: #1f77ab;
+}
+.featured-writing .article-details .article-description sup {
+  font-size: 0.6em;
+  vertical-align: top;
+}
+@media (min-width: 400px) {
+  .featured-writing .article-details .article-description {
+    font-size: 1.06rem;
+  }
+}
+@media (min-width: 700px) {
+  .featured-writing .article-details .article-description {
+    font-size: 1.12rem;
+  }
+}
+@media (min-width: 700px) {
+  .featured-writing .article-details .article-description {
+    font-size: 1.18rem;
+  }
+}
+.featured-writing .article-details p.article-description {
+  font-size: 16px;
+}
+.featured-writing .read-more {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  font-family: sans-serif;
+  font-size: 13px;
+  line-height: 1.1;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #33383b;
+}
+@media (min-width: 700px) {
+  .featured-writing .writing-cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (min-width: 1000px) {
+  .featured-writing .writing-cards {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.my-work .inner-column > * + * {
+  margin-top: 100px;
+}
+.my-work .section-title {
+  margin-bottom: 32px;
+}
+.my-work .project-cards {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 32px;
+}
+@media (min-width: 760px) {
+  .my-work .project-cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (min-width: 960px) {
+  .my-work .project-cards {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  background: #ffffff;
+  border-bottom: 1px solid #ccc;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  z-index: 100;
+}
+.site-header .inner-column {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.site-header ol {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  font-family: "Georgia";
+  font-size: 1rem;
+  line-height: 1.6;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.site-header ol em {
+  font-style: italic;
+}
+.site-header ol strong {
+  font-weight: 700;
+}
+.site-header ol a {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: #1f77ab;
+}
+.site-header ol a:hover {
+  text-decoration-color: #000000;
+  color: #1f77ab;
+}
+.site-header ol sup {
+  font-size: 0.6em;
+  vertical-align: top;
+}
+@media (min-width: 400px) {
+  .site-header ol {
+    font-size: 1.06rem;
+  }
+}
+@media (min-width: 700px) {
+  .site-header ol {
+    font-size: 1.12rem;
+  }
+}
+@media (min-width: 700px) {
+  .site-header ol {
+    font-size: 1.18rem;
+  }
+}
+.site-header ol li {
+  font-size: 16px;
+}
+.site-header ol a {
+  text-decoration: none;
+  padding: 10px;
+}
+.site-header ol a:hover {
+  text-decoration: underline;
+  text-underline-offset: 1px;
+}
+.site-header #my-logo {
+  display: flex;
+  font-size: 34px;
+  font-family: "Inter";
+  font-weight: 700;
+  overflow: hidden;
+}
+.site-header #my-logo:hover span {
+  opacity: 1;
+}
+.site-header #my-logo:hover {
+  gap: 8px;
+}
+.site-header #my-logo span {
+  transition: all 0.3s ease-out;
+  width: 0;
+  opacity: 0;
+  display: inline-flex;
+  overflow: hidden;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 28px;
+}
+
+footer {
+  font-family: sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+footer ul {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  font-family: "Georgia";
+  font-size: 1rem;
+  line-height: 1.6;
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+footer ul em {
+  font-style: italic;
+}
+footer ul strong {
+  font-weight: 700;
+}
+footer ul a {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: #1f77ab;
+}
+footer ul a:hover {
+  text-decoration-color: #000000;
+  color: #1f77ab;
+}
+footer ul sup {
+  font-size: 0.6em;
+  vertical-align: top;
+}
+@media (min-width: 400px) {
+  footer ul {
+    font-size: 1.06rem;
+  }
+}
+@media (min-width: 700px) {
+  footer ul {
+    font-size: 1.12rem;
+  }
+}
+@media (min-width: 700px) {
+  footer ul {
+    font-size: 1.18rem;
+  }
+}
+footer .social-links {
+  font-size: 16px;
+  font-family: sans-serif;
+  display: flex;
+  gap: 12px;
+}
+footer .social-links li:first-of-type a {
+  padding-left: 0px;
+}
+footer .social-links li a {
+  padding: 10px;
+}
+footer .account-links {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+footer .last-updated {
+  display: block;
+}
+footer .social-links + .last-updated {
+  margin-top: 24px;
+}
+footer .footer-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-header {
+  position: relative;
+  border-bottom: 1px solid #ccc;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.page-header .inner-column {
+  z-index: 1;
+}
+.page-header .page-title {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  font-family: sans-serif;
+  font-size: clamp(48px, 1rem + 8vw, 100px);
+  line-height: 1.1;
+  padding: 0.1em 0;
+  font-weight: 900;
+  text-transform: lowercase;
+}
+.page-header .bg {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='32' height='32' fill='none' stroke='rgb(15 23 42 / 0.04)'%3e%3cpath d='M0 .5H31.5V32'/%3e%3c/svg%3e");
+  -webkit-mask-image: linear-gradient(to bottom, transparent, black);
+}
+
+.project-card-link {
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+}
+.project-card-link:hover {
+  transform: scale(1.025);
+  transition: transform 0.3s ease-in-out;
+}
+.project-card-link picture {
+  aspect-ratio: 16/9;
+}
+.project-card-link picture img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.project-card-link h2 {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  font-family: sans-serif;
+  font-size: 20px;
+  line-height: 1.1;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #0f425e;
+}
+.project-card-link .tools span {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  font-family: sans-serif;
+  font-size: 13px;
+  line-height: 1.1;
+  color: #5f666a;
+}
+.project-card-link .tools span::after {
+  content: ",";
+}
+.project-card-link .tools span:last-child::after {
+  content: "";
+}
+.project-card-link .description {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  font-family: "Georgia";
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.project-card-link .description em {
+  font-style: italic;
+}
+.project-card-link .description strong {
+  font-weight: 700;
+}
+.project-card-link .description a {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: #1f77ab;
+}
+.project-card-link .description a:hover {
+  text-decoration-color: #000000;
+  color: #1f77ab;
+}
+.project-card-link .description sup {
+  font-size: 0.6em;
+  vertical-align: top;
+}
+@media (min-width: 400px) {
+  .project-card-link .description {
+    font-size: 1.06rem;
+  }
+}
+@media (min-width: 700px) {
+  .project-card-link .description {
+    font-size: 1.12rem;
+  }
+}
+@media (min-width: 700px) {
+  .project-card-link .description {
+    font-size: 1.18rem;
+  }
+}
+.project-card-link p.description {
+  font-size: 15px;
+}
+.project-card-link picture + h2 {
+  margin-top: 16px;
+}
+.project-card-link h2 + .tools {
+  margin-top: 4px;
+}
+.project-card-link .tools + .description {
+  margin-top: 8px;
+}

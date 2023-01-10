@@ -1,0 +1,135 @@
+
+@mixin scary {
+  font-family: "Scary Halloween Font";
+  display: inline-block;
+  /*     font-family: "Scary Halloween Font"; */
+  font-size: 1.1em;
+  // font-family: "Scary Halloween Font", sans-serif;
+  font-family: sans-serif;
+  font-weight: 700;
+  transform: translateY(-1px);
+  background-color: hsl(201deg 72% 21%);
+background-image: linear-gradient(
+  10deg,
+  hsl(201deg 72% 21%) 0%,
+  hsl(202deg 74% 24%) 5%,
+  hsl(201deg 76% 27%) 10%,
+  hsl(201deg 77% 30%) 14%,
+  hsl(201deg 78% 33%) 19%,
+  hsl(201deg 79% 36%) 24%,
+  hsl(202deg 80% 39%) 29%,
+  hsl(201deg 81% 42%) 33%,
+  hsl(202deg 83% 45%) 38%,
+  hsl(201deg 85% 48%) 43%,
+  hsl(202deg 85% 51%) 48%,
+  hsl(202deg 87% 54%) 52%,
+  hsl(202deg 88% 57%) 57%,
+  hsl(202deg 89% 60%) 62%,
+  hsl(202deg 90% 63%) 67%,
+  hsl(202deg 92% 66%) 71%,
+  hsl(202deg 94% 69%) 76%,
+  hsl(202deg 94% 72%) 81%,
+  hsl(202deg 97% 75%) 86%,
+  hsl(202deg 98% 78%) 90%,
+  hsl(202deg 98% 81%) 95%,
+  hsl(202deg 100% 84%) 100%
+);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@mixin break-long-words {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+@mixin regular-voice {
+  @include break-long-words;
+
+  font-family: "Georgia";
+  font-size: 1rem;
+  line-height: 1.6;
+
+  em {
+    font-style: italic;
+  }
+
+  strong {
+    font-weight: 700;
+  }
+
+  a {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #1f77ab;
+    &:hover {
+      text-decoration-color: #000000;
+      color: #1f77ab;
+    }
+  }
+
+  sup {
+    font-size: .6em;
+    vertical-align: top;
+  }
+
+  @media(min-width: 400px) {
+    font-size: 1.06rem;
+  }
+
+  @media(min-width: 700px) {
+    font-size: 1.12rem;
+  }
+
+  @media(min-width: 700px) {
+    font-size: 1.18rem;
+  }
+}
+
+@mixin huge-voice {
+  @include break-long-words;
+
+  font-family: sans-serif;
+  font-size: clamp(48px, 1rem + 8vw, 100px);
+  line-height: 1.1;
+  padding: .1em 0;
+}
+
+@mixin loud-voice {
+  @include break-long-words;
+
+  font-family: sans-serif;
+  font-size: clamp(28px, 1rem + 3vw, 36px);
+  line-height: 1.2;
+}
+
+@mixin strong-voice {
+  @include break-long-words;
+
+  font-family: sans-serif;
+  font-size: 24px;
+  line-height: 1.1;
+}
+
+@mixin attention-voice {
+  @include break-long-words;
+
+  font-family: sans-serif;
+  font-size: 20px;
+  line-height: 1.1;
+}
+
+@mixin quiet-voice {
+  @include break-long-words;
+
+  font-family: sans-serif;
+  font-size: 13px;
+  line-height: 1.1;
+}
+
+.section-title {
+    @include loud-voice;
+    font-weight: 700;
+}

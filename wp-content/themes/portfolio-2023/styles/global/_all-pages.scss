@@ -1,0 +1,29 @@
+.page-header {
+	position: relative;
+	border-bottom: 1px solid #ccc;
+	padding-top: 24px;
+	padding-bottom: 24px;
+
+	.inner-column {
+		z-index: 1;
+	}
+	
+	.page-title {
+		@include huge-voice;
+		font-weight: 900;
+		text-transform: lowercase;
+	}
+
+	.bg {
+		z-index: -1;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+
+		background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='32' height='32' fill='none' stroke='rgb(15 23 42 / 0.04)'%3e%3cpath d='M0 .5H31.5V32'/%3e%3c/svg%3e");
+		-webkit-mask-image: linear-gradient(to bottom, transparent, black);
+		// background-color: #eef4f8;
+	}
+}

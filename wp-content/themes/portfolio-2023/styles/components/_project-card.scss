@@ -1,0 +1,57 @@
+.project-card-link {
+	transform: scale(1);
+	transition: transform 0.3s ease-in-out;
+	&:hover {
+		transform: scale(1.025);
+		transition: transform 0.3s ease-in-out;
+	}
+	picture {
+		aspect-ratio: 16/9;
+
+		img {
+			object-fit: cover;
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+	h2 {
+		@include attention-voice;
+		text-transform: uppercase;
+		font-weight: 700;
+		color: #0f425e;
+	}
+
+	.tools span {
+		@include quiet-voice;
+		color: #5f666a;
+
+		&::after {
+			content: ",";
+		}
+
+		&:last-child::after {
+			content: "";
+		}
+	}
+
+	.description {
+		@include regular-voice;
+	}
+
+	p.description {
+		font-size: 15px;
+	}
+
+	picture + h2 {
+		margin-top: 16px;
+	}
+
+	h2 + .tools {
+		margin-top: 4px;
+	}
+
+	.tools + .description {
+		margin-top: 8px;
+	}
+}

@@ -1,0 +1,28 @@
+.my-work {
+	// background-image: url('https://ucarecdn.com/fd4700cb-9201-496e-aa02-408d4a85e756/-/preview/-/quality/smart/-/format/auto/');
+	// background-size: 350px auto;
+	// background-color: #eef4f8;
+	.inner-column > * + * {
+		margin-top: 100px;
+	}
+	.section-title {
+		margin-bottom: 32px;
+	}
+
+	.project-cards {
+		display: grid;
+		grid-template-columns: repeat(1,minmax(0,1fr));
+		gap: 32px;
+	}
+
+	@media(min-width: 760px) {
+		.project-cards {
+			grid-template-columns: repeat(2,minmax(0,1fr));
+		}
+	}
+	@media(min-width: 960px) {
+		.project-cards {
+			grid-template-columns: repeat(3,minmax(0,1fr));
+		}
+	}	
+}

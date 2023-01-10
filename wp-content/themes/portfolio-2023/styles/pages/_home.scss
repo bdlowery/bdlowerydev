@@ -1,0 +1,181 @@
+.page-id-13 {
+	.section-title {
+		@include loud-voice;
+		font-weight: 700;
+		margin-bottom: 32px;
+		// color: #0f425e;
+
+	}
+}
+
+
+.intro {
+
+	.casual-intro {
+		h1 {
+			@include huge-voice;
+			font-weight: 700;
+		}
+
+		h2 {
+			@include loud-voice;
+		}
+
+		.scary {
+			@include scary;
+		}
+	}
+
+	.extra-information {
+		position: relative;
+		display: grid;
+		grid-template-columns: repeat(1,minmax(0,1fr));
+		gap: 32px;
+
+
+
+		.what-im-doing {
+			h2 {
+				@include strong-voice;
+				font-weight: 700;
+			}
+			li {
+				@include regular-voice;
+			}
+		}
+
+		.education {
+			h2 {
+				@include strong-voice;
+				font-weight: 700;
+			}
+			li {
+				@include regular-voice;
+			}
+		}
+
+		.what-im-doing, .education {
+			h2 + ul {
+				margin-top: 8px;
+			}
+			li + li {
+				margin-top: 12px;
+			}
+		}
+
+	}
+
+	.casual-intro + .extra-information {
+		margin-top: 120px;
+	}
+
+	@media(min-width: 700px) {
+
+		.extra-information {
+			grid-template-columns: repeat(2,minmax(0,1fr));
+			gap: 32px;
+		}
+	}
+
+}
+
+.projects {
+	background-color: #e2eaf0;
+	background-image: url('https://ucarecdn.com/fd4700cb-9201-496e-aa02-408d4a85e756/-/preview/-/quality/smart/-/format/auto/');
+	background-size: 350px auto;
+
+	.featured-projects {
+		display: grid;
+		grid-template-columns: repeat(1,minmax(0,1fr));
+		gap: 32px;
+	}
+
+
+	@media(min-width: 760px) {
+		.featured-projects {
+			grid-template-columns: repeat(2,minmax(0,1fr));
+		}
+	}
+
+	@media(min-width: 960px) {
+		.featured-projects {
+			grid-template-columns: repeat(3,minmax(0,1fr));
+		}
+	}
+}
+
+.featured-writing {
+
+	.writing-cards {
+		display: grid;
+		grid-template-columns: repeat(1,minmax(0,1fr));
+		gap: 32px;
+	}
+
+	.writing-card-link {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		width: 100%;
+		
+		transform: scale(1);
+		transition: transform 0.3s ease-in-out;
+		&:hover {
+			transform: scale(1.025);
+			transition: transform 0.3s ease-in-out;
+		}
+
+		&:hover {
+			h2, .read-more {
+				color: #1f77ab;
+			}
+
+			.read-more {
+			}
+		}
+	}
+
+	.article-details {
+		time {
+			display: block;
+			@include quiet-voice;
+			color: #5f666a;
+			margin-bottom: 8px;
+		}
+
+		.article-title {
+			@include strong-voice;
+			font-weight: 700;
+			margin-bottom: 16px;
+		}
+
+		.article-description {
+			@include regular-voice;
+			margin-bottom: 16px;
+		}
+
+		p.article-description {
+			font-size: 16px;
+		}
+	}
+
+	.read-more {
+		@include quiet-voice;
+		text-transform: uppercase;
+		font-weight: 700;
+		color: #33383b;
+	}
+
+
+	@media(min-width: 700px) {
+		.writing-cards {
+			grid-template-columns: repeat(2,minmax(0,1fr));
+		}
+	}
+
+	@media(min-width: 1000px) {
+		.writing-cards {
+			grid-template-columns: repeat(3,minmax(0,1fr));
+		}
+	}
+}

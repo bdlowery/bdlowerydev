@@ -1,0 +1,66 @@
+.site-header {
+	position: sticky;
+	top: 0;
+	background: #ffffff;
+	border-bottom: 1px solid #ccc;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	z-index: 100;
+	.inner-column {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+
+	}
+	ol {
+		@include regular-voice;
+		font-family: sans-serif;
+		display: flex;
+		flex-direction: row;
+		gap: 20px;
+
+		li {
+			font-size: 16px;
+		}
+
+		a {
+			text-decoration: none;
+			padding: 10px;
+
+			&:hover {
+				text-decoration: underline;
+				text-underline-offset: 1px;
+			}
+		}
+	}
+
+
+	#my-logo {
+		display: flex;
+		font-size: 34px;
+		font-family: 'Inter';
+		font-weight: 700;
+		// max-width: 70px;
+		overflow: hidden;
+
+		&:hover span {
+			opacity: 1;
+		}
+		&:hover {
+			gap: 8px;
+		}
+
+		span {
+			transition: all 0.3s ease-out;
+			width: 0;
+			opacity: 0;
+			display: inline-flex;
+			overflow: hidden;
+			font-family: 'Inter';
+			font-weight: 400;
+			font-size: 28px;
+		}
+	}
+
+}
