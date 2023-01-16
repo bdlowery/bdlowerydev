@@ -7,11 +7,16 @@
 // pages
 @import "pages/_home";
 @import "pages/_my-work";
+@import "pages/_case-study";
 
 // global
 @import "global/_site-header";
 @import "global/_site-footer";
 @import "global/_all-pages";
+@import "global/_prism";
 
 // components
-@import "components/_project-card.scss";
+@import "components/_project-card";
+
+// modules
+@import "modules/_goal";

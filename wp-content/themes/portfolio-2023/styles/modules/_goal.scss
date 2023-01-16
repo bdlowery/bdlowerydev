@@ -1,0 +1,22 @@
+.goal-module {
+	goal {
+		@include regular-voice;
+		display: block;
+		position: relative;
+		padding: 16px 16px;
+		border: 1px solid black;
+		max-width: 75ch;
+		box-shadow: 0 10px 16px rgb(0 0 0 / 5%);
+
+		&::before {
+			content: "Goal";
+			font-family: sans-serif;
+			position: absolute;
+			top: -20px;
+			padding: 0 16px;
+			font-size: 24px;
+			font-weight: 700;
+			background-color: white;
+		}
+	}
+}

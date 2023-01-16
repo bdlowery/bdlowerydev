@@ -1,0 +1,114 @@
+article {
+
+	.page-header {
+		// color: #ffffff;
+	}
+
+	.intro {
+		@include regular-voice;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		border-bottom: 1px solid #ccc;
+	}
+
+	.post {
+		padding-top: 80px;
+		padding-bottom: 80px;
+
+		.goal-module {
+			padding-top: 0px;
+			padding-bottom: 20px;
+		}
+
+		section {
+			padding-top: 60px;
+			padding-bottom: 60px;
+		}
+
+		picture {
+			max-width: 650px;
+			box-shadow: 0 10px 16px rgba(0, 0, 0, 0.15);
+		}
+
+		p {
+			max-width: 75ch;
+		}
+
+		h2 {
+			max-width: 33ch;
+		}
+
+		h3 {
+			@include strong-voice;
+			font-weight: 700;
+		}
+
+		h4 {
+			@include attention-voice;
+			font-weight: 700;
+		}
+
+		ol {
+			list-style-type: decimal;
+
+			li {
+				padding-left: 4px;
+			}
+		}
+
+		ol, ul {
+			@include regular-voice;
+		}
+
+		ul li, ol li {
+			max-width: 60ch;
+		}
+
+		ol, ul {
+			padding-inline-start: 40px;
+		}
+
+		ul li {
+			position: relative;
+			list-style-type: disc;
+		}
+
+		pre, .code-toolbar {
+			max-width: 900px;
+		}
+
+		h2 + p {
+			margin-top: 15px;
+		}
+
+		h2 {
+			font-family: sans-serif;
+			font-size: 36px;
+			line-height: 1.1;
+			font-weight: 700;
+			color: #000000;
+		}
+
+		p {
+			@include regular-voice;
+		}
+
+		p + p, li + li, ul + p, p + ul, p + .code-toolbar, .code-toolbar + p {
+			margin-top: 15px;
+		}
+
+		h2 + h3, p + h3, p + h4 {
+			margin-top: 30px;
+		}
+
+		h3 + p, h4 + p {
+			margin-top: 10px;
+		}
+
+		picture {
+			margin-top: 30px;
+			margin-bottom: 30px;
+		}
+
+	}
+}

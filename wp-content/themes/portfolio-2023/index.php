@@ -25,6 +25,12 @@
 
 
 	// DETAIL PAGES 
+	if (is_singular("project")) {
+		include("templates/pages/case-study.php");
+	}
+	if (is_singular("post")) {
+		include("templates/pages/default-writing-page.php");
+	}
 
 
 

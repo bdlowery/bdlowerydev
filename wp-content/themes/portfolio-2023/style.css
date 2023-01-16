@@ -516,6 +516,213 @@ section {
   }
 }
 
+article .intro {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  font-family: "Georgia";
+  font-size: 1rem;
+  line-height: 1.6;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+article .intro em {
+  font-style: italic;
+}
+article .intro strong {
+  font-weight: 700;
+}
+article .intro a {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: #1f77ab;
+}
+article .intro a:hover {
+  text-decoration-color: #000000;
+  color: #1f77ab;
+}
+article .intro sup {
+  font-size: 0.6em;
+  vertical-align: top;
+}
+@media (min-width: 400px) {
+  article .intro {
+    font-size: 1.06rem;
+  }
+}
+@media (min-width: 700px) {
+  article .intro {
+    font-size: 1.12rem;
+  }
+}
+@media (min-width: 700px) {
+  article .intro {
+    font-size: 1.18rem;
+  }
+}
+article .post {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+article .post .goal-module {
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+article .post section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+article .post picture {
+  max-width: 650px;
+  box-shadow: 0 10px 16px rgba(0, 0, 0, 0.15);
+}
+article .post p {
+  max-width: 75ch;
+}
+article .post h2 {
+  max-width: 33ch;
+}
+article .post h3 {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  font-family: sans-serif;
+  font-size: 24px;
+  line-height: 1.1;
+  font-weight: 700;
+}
+article .post h4 {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  font-family: sans-serif;
+  font-size: 20px;
+  line-height: 1.1;
+  font-weight: 700;
+}
+article .post ol {
+  list-style-type: decimal;
+}
+article .post ol li {
+  padding-left: 4px;
+}
+article .post ol, article .post ul {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  font-family: "Georgia";
+  font-size: 1rem;
+  line-height: 1.6;
+}
+article .post ol em, article .post ul em {
+  font-style: italic;
+}
+article .post ol strong, article .post ul strong {
+  font-weight: 700;
+}
+article .post ol a, article .post ul a {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: #1f77ab;
+}
+article .post ol a:hover, article .post ul a:hover {
+  text-decoration-color: #000000;
+  color: #1f77ab;
+}
+article .post ol sup, article .post ul sup {
+  font-size: 0.6em;
+  vertical-align: top;
+}
+@media (min-width: 400px) {
+  article .post ol, article .post ul {
+    font-size: 1.06rem;
+  }
+}
+@media (min-width: 700px) {
+  article .post ol, article .post ul {
+    font-size: 1.12rem;
+  }
+}
+@media (min-width: 700px) {
+  article .post ol, article .post ul {
+    font-size: 1.18rem;
+  }
+}
+article .post ul li, article .post ol li {
+  max-width: 60ch;
+}
+article .post ol, article .post ul {
+  padding-inline-start: 40px;
+}
+article .post ul li {
+  position: relative;
+  list-style-type: disc;
+}
+article .post pre, article .post .code-toolbar {
+  max-width: 900px;
+}
+article .post h2 + p {
+  margin-top: 15px;
+}
+article .post h2 {
+  font-family: sans-serif;
+  font-size: 36px;
+  line-height: 1.1;
+  font-weight: 700;
+  color: #000000;
+}
+article .post p {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  font-family: "Georgia";
+  font-size: 1rem;
+  line-height: 1.6;
+}
+article .post p em {
+  font-style: italic;
+}
+article .post p strong {
+  font-weight: 700;
+}
+article .post p a {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: #1f77ab;
+}
+article .post p a:hover {
+  text-decoration-color: #000000;
+  color: #1f77ab;
+}
+article .post p sup {
+  font-size: 0.6em;
+  vertical-align: top;
+}
+@media (min-width: 400px) {
+  article .post p {
+    font-size: 1.06rem;
+  }
+}
+@media (min-width: 700px) {
+  article .post p {
+    font-size: 1.12rem;
+  }
+}
+@media (min-width: 700px) {
+  article .post p {
+    font-size: 1.18rem;
+  }
+}
+article .post p + p, article .post li + li, article .post ul + p, article .post p + ul, article .post p + .code-toolbar, article .post .code-toolbar + p {
+  margin-top: 15px;
+}
+article .post h2 + h3, article .post p + h3, article .post p + h4 {
+  margin-top: 30px;
+}
+article .post h3 + p, article .post h4 + p {
+  margin-top: 10px;
+}
+article .post picture {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .site-header {
   position: sticky;
   top: 0;
@@ -718,6 +925,109 @@ footer .footer-info {
   -webkit-mask-image: linear-gradient(to bottom, transparent, black);
 }
 
+/* PrismJS 1.29.0
+https://prismjs.com/download.html#themes=prism&languages=markup+css+clike+javascript+markup-templating+php */
+code[class*=language-], pre[class*=language-] {
+  color: #000;
+  background: 0 0;
+  text-shadow: 0 1px #fff;
+  font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+  font-size: 1em;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+code[class*=language-] ::-moz-selection, code[class*=language-]::-moz-selection, pre[class*=language-] ::-moz-selection, pre[class*=language-]::-moz-selection {
+  text-shadow: none;
+  background: #b3d4fc;
+}
+
+code[class*=language-] ::selection, code[class*=language-]::selection, pre[class*=language-] ::selection, pre[class*=language-]::selection {
+  text-shadow: none;
+  background: #b3d4fc;
+}
+
+@media print {
+  code[class*=language-], pre[class*=language-] {
+    text-shadow: none;
+  }
+}
+pre[class*=language-] {
+  padding: 1em;
+  margin: 0.5em 0;
+  overflow: auto;
+}
+
+:not(pre) > code[class*=language-], pre[class*=language-] {
+  background: #f5f2f0;
+}
+
+:not(pre) > code[class*=language-] {
+  padding: 0.1em;
+  border-radius: 0.3em;
+  white-space: normal;
+}
+
+.token.cdata, .token.comment, .token.doctype, .token.prolog {
+  color: #708090;
+}
+
+.token.punctuation {
+  color: #999;
+}
+
+.token.namespace {
+  opacity: 0.7;
+}
+
+.token.boolean, .token.constant, .token.deleted, .token.number, .token.property, .token.symbol, .token.tag {
+  color: #905;
+}
+
+.token.attr-name, .token.builtin, .token.char, .token.inserted, .token.selector, .token.string {
+  color: #690;
+}
+
+.language-css .token.string, .style .token.string, .token.entity, .token.operator, .token.url {
+  color: #9a6e3a;
+  background: hsla(0deg, 0%, 100%, 0.5);
+}
+
+.token.atrule, .token.attr-value, .token.keyword {
+  color: #07a;
+}
+
+.token.class-name, .token.function {
+  color: #dd4a68;
+}
+
+.token.important, .token.regex, .token.variable {
+  color: #e90;
+}
+
+.token.bold, .token.important {
+  font-weight: 700;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+.token.entity {
+  cursor: help;
+}
+
 .project-card-link {
   transform: scale(1);
   transition: transform 0.3s ease-in-out;
@@ -810,4 +1120,62 @@ footer .footer-info {
 }
 .project-card-link .tools + .description {
   margin-top: 8px;
+}
+
+.goal-module goal {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  font-family: "Georgia";
+  font-size: 1rem;
+  line-height: 1.6;
+  display: block;
+  position: relative;
+  padding: 16px 16px;
+  border: 1px solid black;
+  max-width: 75ch;
+  box-shadow: 0 10px 16px rgba(0, 0, 0, 0.05);
+}
+.goal-module goal em {
+  font-style: italic;
+}
+.goal-module goal strong {
+  font-weight: 700;
+}
+.goal-module goal a {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: #1f77ab;
+}
+.goal-module goal a:hover {
+  text-decoration-color: #000000;
+  color: #1f77ab;
+}
+.goal-module goal sup {
+  font-size: 0.6em;
+  vertical-align: top;
+}
+@media (min-width: 400px) {
+  .goal-module goal {
+    font-size: 1.06rem;
+  }
+}
+@media (min-width: 700px) {
+  .goal-module goal {
+    font-size: 1.12rem;
+  }
+}
+@media (min-width: 700px) {
+  .goal-module goal {
+    font-size: 1.18rem;
+  }
+}
+.goal-module goal::before {
+  content: "Goal";
+  font-family: sans-serif;
+  position: absolute;
+  top: -20px;
+  padding: 0 16px;
+  font-size: 24px;
+  font-weight: 700;
+  background-color: white;
 }
