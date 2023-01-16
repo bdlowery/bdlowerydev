@@ -525,6 +525,7 @@ article .intro {
   padding-top: 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid #ccc;
+  background-color: #fbfbfb;
 }
 article .intro em {
   font-style: italic;
