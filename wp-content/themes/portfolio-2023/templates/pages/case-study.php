@@ -12,15 +12,20 @@ if ($projectImage) {
 } else {
   $projectImage = "https://peprojects.dev/alpha-2/purplebox.jpg";
 }
+
+
 ?>
 
 <article>
 	<header class="page-header">
+
+		<div aria-hidden='true' class="bg"></div>
+		<div class='case-study-bg' style='background-image: url("<?=$projectHeaderImage?>")'></div>
 		<div class="inner-column">
 			<h1 class="page-title"><?= $name ?></h1>
 			<?php show_edit_post(); ?>
 		</div>
-		<div aria-hidden='true' class="bg"></div>
+
 	</header>
 
 	<section class="intro">
