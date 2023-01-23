@@ -8,7 +8,8 @@
 $name = get_field("name", $card->ID);
 $projectImage = get_field("project_image", $card->ID);
 $description = get_field("description", $card->ID);
-$toolsUsed = get_field("tool", $card->ID);
+$tools = get_field("tools", $card->ID);
+// formatCode($toolsUsed);
 $hideCaseStudy = get_field('hide_case_study', $card->ID);
 
 if($hideCaseStudy) {
@@ -41,10 +42,13 @@ if ($projectImage) {
 			$terms = get_the_terms($card->ID, 'tool');
 		?>
 		<div class="tools">
-			<?php foreach ($terms as $term) { ?>
+			<?php
+			if($tools) {
+				foreach ($tools as $tool) { ?>
 
-			<span><?= $term->name; ?></span>
+				<span><?= $tool->name; ?></span>
 
+				<?php } ?>
 			<?php } ?>
 		</div>
 		<p class="description"><?= $description ?></p>
