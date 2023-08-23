@@ -10,9 +10,8 @@
 			<div class="what-im-doing">
 				<h2>Currently I'm:</h2>
 				<ul>
-					<li>Interning at <a href="https://perpetual.education/">Perpetual Education</a></li>
+					<li>Working at <a href="https://perpetual.education/">Perpetual Education</a> as a web developer</li>
 					<li>Running a web agency at <a href="https://www.unwrapdesign.com/">Unwrap Design</a></li>
-					<li>Making <a href="/projects">projects</a></li>
 				</ul>
 			</div>
 
