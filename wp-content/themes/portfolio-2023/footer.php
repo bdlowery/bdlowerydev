@@ -12,7 +12,7 @@
             <div class="links-group">
                <ul class='social-links'>
                   <li>
-                     <a href="https://twitter.com/bdlowery2">twitter</a>
+                     <a href="https://twitter.com/bdlowery2">x</a>
                   </li>
                   <li>
                      <a href="https://www.linkedin.com/in/bdlowery">linkedin</a>
