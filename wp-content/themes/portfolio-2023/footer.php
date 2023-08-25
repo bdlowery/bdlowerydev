@@ -7,6 +7,7 @@
    ?>
 
    <footer>
+      <div class="background-grain"></div>
       <div class="inner-column">
          <div class="footer-info">
             <div class="links-group">
