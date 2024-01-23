@@ -11,19 +11,19 @@
       <div class="container">
          <div class="text-white flex flex-row justify-between">
             <div class="grid gap-8 links-group">
-               <ul class='flex flex-row gap-8'>
+               <ul class='flex flex-row gap-6'>
                   <li>
-                     <a class=' -mx-3 -my-2 px-3 py-2 underline decoration-sky-500 hover:text-sky-500 hover:no-underline' href="https://twitter.com/bdlowery2">x</a>
+                     <a class=' -mx-2 -my-1 px-2 py-1 underline decoration-sky-500 hover:text-sky-500 hover:no-underline' href="https://twitter.com/bdlowery2">x</a>
                   </li>
                   <li>
-                     <a class='-mx-3 -my-2 px-3 py-2 underline decoration-sky-500 hover:text-sky-500 hover:no-underline' href="https://www.linkedin.com/in/bdlowery">linkedin</a>
+                     <a class='-mx-2 -my-1 px-2 py-1 underline decoration-sky-500 hover:text-sky-500 hover:no-underline' href="https://www.linkedin.com/in/bdlowery">linkedin</a>
                   </li>
                   <li>
-                     <a class='-mx-3 -my-2 px-3 py-2 underline decoration-sky-500 hover:text-sky-500 hover:no-underline' href="https://codepen.io/bdlowery">codepen</a>
+                     <a class='-mx-2 -my-1 px-2 py-1 underline decoration-sky-500 hover:text-sky-500 hover:no-underline' href="https://codepen.io/bdlowery">codepen</a>
                   </li>
 
                   <li>
-                     <a class='-mx-3 -my-2 px-3 py-2 underline decoration-sky-500 hover:text-sky-500 hover:no-underline' href="https://github.com/bdlowery">github</a>
+                     <a class='-mx-2 -my-1 px-2 py-1 underline decoration-sky-500 hover:text-sky-500 hover:no-underline' href="https://github.com/bdlowery">github</a>
                   </li>
                </ul>
                <span class='last-updated'>Last updated: <time datetime="<?= $updatedDateDatetime ?>"><?= $updatedDate; ?></time></span>

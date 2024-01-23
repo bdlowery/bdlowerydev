@@ -25,7 +25,8 @@
 					<h2 class='font-medium text-lg'>Currently I'm:</h2>
 					<ul class='list-disc pl-8 space-y-1 mt-1'>
 						<li>Working at <a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://perpetual.education/">Perpetual Education</a> as a web developer</li>
-						<li>Running a web agency at <a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://www.unwrapdesign.com/">Unwrap Design</a></li>
+						<li>Building web apps and small business sites at <a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://www.unwrapdesign.com/">Unwrap Design</a></li>
+
 					</ul>
 				</div>
 				<div class='mt-5'>
