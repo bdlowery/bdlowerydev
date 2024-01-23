@@ -25,6 +25,7 @@
 
 !/wp-content/themes/portfolio-2021
 !/wp-content/themes/portfolio-2023
+!/wp-content/themes/portfolio-2024
 
 node_modules
 config.codekit3

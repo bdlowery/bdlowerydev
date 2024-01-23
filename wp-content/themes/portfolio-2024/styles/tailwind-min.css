@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scary {
+  display: inline-block;
+  /* font-family: "Scary Halloween Font"; */
+  font-size: 1em;
+  font-family: sans-serif;
+  font-weight: 700;
+  background-color: hsl(201, 72%, 21%);
+  background-image: linear-gradient(10deg, hsl(201, 72%, 21%) 0%, hsl(202, 74%, 24%) 5%, hsl(201, 76%, 27%) 10%, hsl(201, 77%, 30%) 14%, hsl(201, 78%, 33%) 19%, hsl(201, 79%, 36%) 24%, hsl(202, 80%, 39%) 29%, hsl(201, 81%, 42%) 33%, hsl(202, 83%, 45%) 38%, hsl(201, 85%, 48%) 43%, hsl(202, 85%, 51%) 48%, hsl(202, 87%, 54%) 52%, hsl(202, 88%, 57%) 57%, hsl(202, 89%, 60%) 62%, hsl(202, 90%, 63%) 67%, hsl(202, 92%, 66%) 71%, hsl(202, 94%, 69%) 76%, hsl(202, 94%, 72%) 81%, hsl(202, 97%, 75%) 86%, hsl(202, 98%, 78%) 90%, hsl(202, 98%, 81%) 95%, hsl(202, 100%, 84%) 100%);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+#page-content {
+  flex: 1;
+  flex-grow: 1;
+}
+
+.background-grain {
+  animation: animateGrain 12s steps(10) infinite;
+  background-image: url(https://ucarecdn.com/9b028010-239e-4c2d-97cf-8d3ad8ea9590/grain.png);
+  background-repeat: repeat;
+  background-size: 256px 256px;
+  height: 400%;
+  image-rendering: pixelated;
+  inset: -200%;
+  opacity: 0.04;
+  position: absolute;
+  width: 400%;
+  z-index: -1;
+}
+
+@keyframes animateGrain {
+  0%, 100% {
+    transform: translate(0);
+}
+  10% {
+      transform: translate(-5%, -10%);
+  }
+  20% {
+      transform: translate(-15%, 5%);
+  }
+  30% {
+      transform: translate(7%, -25%);
+  }
+  40% {
+      transform: translate(-5%, 25%);
+  }
+  50% {
+      transform: translate(-15%, 10%);
+  }
+  60% {
+      transform: translate(15%);
+  }
+  70% {
+      transform: translateY(15%);
+  }
+  80% {
+      transform: translate(3%, 35%);
+  }
+  90% {
+      transform: translate(-10%, 10%);
+  }
+  100% {
+      transform: translate(5%, 25%);
+  }
+}
