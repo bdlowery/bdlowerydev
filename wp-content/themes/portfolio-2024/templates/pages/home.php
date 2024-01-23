@@ -1,8 +1,24 @@
-<section class='intro'>
+<section class='relative'>
+	<div class='absolute bg-[url(https://ucarecdn.com/729db6a2-40c0-472a-8384-f45a325999b5/noise.svg)] top-0 w-full h-full opacity-30 -z-10'></div>
 	<div class="container">
-		<div class='grid gap-10 py-40'>
-			<div>
-				<h1 class="text-5xl font-medium">I'm a <span class='scary'>Web Developer</span> <br /> based out of Sacramento, California.</h1>
+		<div class='grid gap-10 py-20 md:py-40'>
+			<div class='relative'>
+				<h1 class="text-5xl font-medium">I'm a
+					<div class='font-bold inline-block relative'>
+						<div class="absolute opacity-40 inset-y-0 w-px -left-px" style="background-image:url('data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 1 4\'%3E%3Crect width=\'1\' height=\'1\' fill=\'%23212126\'/%3E%3C/svg%3E'); -webkit-mask-image:linear-gradient(to bottom, transparent, white 1.5rem, white calc(100% - 1.5rem), transparent); mask-image:linear-gradient(to bottom, transparent, white 1.5rem, white calc(100% - 1.5rem), transparent); margin-top:-1.5rem; margin-bottom:-1.5rem"></div>
+						<div class="absolute opacity-40 inset-y-0 w-px -right-px" style="background-image:url('data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 1 4\'%3E%3Crect width=\'1\' height=\'1\' fill=\'%23212126\'/%3E%3C/svg%3E'); -webkit-mask-image:linear-gradient(to bottom, transparent, white 1.5rem, white calc(100% - 1.5rem), transparent); mask-image:linear-gradient(to bottom, transparent, white 1.5rem, white calc(100% - 1.5rem), transparent); margin-top:-1.5rem; margin-bottom:-1.5rem"></div>
+
+						<span>Web Developer</span>
+						<div class="absolute opacity-40 inset-x-0 h-px bottom-[4px]" style="background-image:url('data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 4 1\'%3E%3Crect width=\'1\' height=\'1\' fill=\'%23212126\'/%3E%3C/svg%3E'); -webkit-mask-image:linear-gradient(to right, transparent, white 1.5rem, white calc(100% - 1.5rem), transparent); mask-image:linear-gradient(to right, transparent, white 1.5rem, white calc(100% - 1.5rem), transparent); margin-left:-1.5rem; margin-right:-1.5rem"></div>
+
+						<div class="absolute opacity-40 inset-x-0 h-px top-[6px]" style="background-image:url('data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 4 1\'%3E%3Crect width=\'1\' height=\'1\' fill=\'%23212126\'/%3E%3C/svg%3E'); -webkit-mask-image:linear-gradient(to right, transparent, white 1.5rem, white calc(100% - 1.5rem), transparent); mask-image:linear-gradient(to right, transparent, white 1.5rem, white calc(100% - 1.5rem), transparent); margin-left:-1.5rem; margin-right:-1.5rem"></div>
+
+					</div>
+					<br />
+					based out of Sacramento, California.
+				</h1>
+
+
 			</div>
 			<div>
 				<div>
