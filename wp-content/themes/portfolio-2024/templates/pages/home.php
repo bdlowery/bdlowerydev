@@ -25,7 +25,7 @@
 				<div>
 					<h2 class='font-medium text-lg'>Currently I'm:</h2>
 					<ul class='list-disc pl-8 space-y-1 mt-1'>
-						<li>Working at <a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://abetterlife.com/"> A Better Life</a> as a Frontend web developer</li>
+						<li>Working at <a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://abetterlife.com/">A Better Life</a> as a Frontend Web Developer</li>
 						<li>Building web apps and small business sites at <a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://www.unwrapdesign.com/">Unwrap Design</a></li>
 
 					</ul>
