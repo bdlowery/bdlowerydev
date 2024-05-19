@@ -1,7 +1,7 @@
 <section class='relative'>
 	<div class='absolute bg-[url(https://ucarecdn.com/729db6a2-40c0-472a-8384-f45a325999b5/noise.svg)] top-0 w-full h-full opacity-30 -z-10'></div>
 	<div class="container">
-		<div class='grid gap-10 py-20 md:py-40'>
+		<div class='grid gap-10 py-20 md:py-32'>
 			<div class='relative'>
 				<h1 class="text-4xl sm:text-5xl font-medium">I'm a
 					<div class='font-bold inline-block relative'>
@@ -23,19 +23,44 @@
 			</div>
 			<div>
 				<div>
-					<h2 class='font-medium text-lg'>Currently I'm:</h2>
+					<h2 class='font-medium text-lg'>Currently I'm</h2>
 					<ul class='list-disc pl-8 space-y-1 mt-1'>
-						<li>Working at <a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://abetterlife.com/">A Better Life</a> as a Frontend Web Developer</li>
-						<li>Building web apps and small business sites at <a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://www.unwrapdesign.com/">Unwrap Design</a></li>
+						<li>Building web apps and small business sites at <a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://www.unwrapdesign.com/">Unwrap Design</a>.</li>
 
 					</ul>
 				</div>
-				<div class='mt-5'>
-					<h2 class='font-medium text-lg'>Education:</h2>
-					<ul class='list-disc pl-8 space-y-1 mt-1''>
-						<li>4th year Computer Science student at Sacramento State</li>
-						<li>Associates of Math</li>
-						<li>Associates of Science</li>
+				<div class="flex gap-12 mt-10">
+					<div>
+						<h2 class='font-medium text-lg'>Work experience</h2>
+						<ul class='list-disc pl-8 space-y-1 mt-1'>
+							<li>Software Engineer at <a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://perpetual.education/">Perpetual Education</a>.</li>
+							<li>Frontend Developer at <a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://abetterlife.com/">BetterLife</a>.</li>
+							<li>Co-Founder / Fullstack Developer at <a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://www.unwrapdesign.com/">Unwrap Design</a>.</li>
+							<li>Intern at <a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://perpetual.education/">Perpetual Education</a>.</li>
+						</ul>
+					</div>
+					<div>
+						<h2 class='font-medium text-lg'>Education</h2>
+						<ul class='list-disc pl-8 space-y-1 mt-1''>
+							<li>B.S. in Computer Science</li>
+							<li>Associates of Math</li>
+							<li>Associates of Science</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class='mt-10'>
+					<h2 class='font-medium text-lg'>A couple projects</h2>
+					<ul class='list-disc pl-8 space-y-1 mt-1'>
+						<li> A niche job board for Plumbers - 
+							<a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://www.plumberjobsusa.com/">Plumber Jobs USA</a>.
+						</li>
+						<li>
+							A website for a local cabinet painting business - <a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://www.essentialcabinetpainting.com/">Essential Cabinet Painting</a>.
+						</li>
+						<li>
+							An order form for a local screen printing company - <a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://order.jg.graphics/">JG Graphics</a>.
+						</li>
 					</ul>
 				</div>
 			</div>

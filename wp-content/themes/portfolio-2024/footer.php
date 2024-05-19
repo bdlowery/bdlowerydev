@@ -13,13 +13,10 @@
             <div class="grid gap-8 links-group">
                <ul class='flex flex-row gap-6'>
                   <li>
-                     <a class=' -mx-2 -my-1 px-2 py-1 underline decoration-sky-500 hover:text-sky-500 hover:no-underline' href="https://twitter.com/bdlowery2">x</a>
+                     <a class=' -mx-2 -my-1 px-2 py-1 underline decoration-sky-500 hover:text-sky-500 hover:no-underline' href="https://x.com/bdlowery2">x</a>
                   </li>
                   <li>
                      <a class='-mx-2 -my-1 px-2 py-1 underline decoration-sky-500 hover:text-sky-500 hover:no-underline' href="https://www.linkedin.com/in/bdlowery">linkedin</a>
-                  </li>
-                  <li>
-                     <a class='-mx-2 -my-1 px-2 py-1 underline decoration-sky-500 hover:text-sky-500 hover:no-underline' href="https://codepen.io/bdlowery">codepen</a>
                   </li>
 
                   <li>

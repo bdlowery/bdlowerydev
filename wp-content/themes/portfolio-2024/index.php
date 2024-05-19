@@ -1,6 +1,14 @@
 <?php get_header(); ?>
 
+
+
 <?php
+
+/* 
+	NOTE: to get tailwind to work use this command:
+	npx tailwindcss -i ./styles/tailwind.css -o ./src/style.css --watch 
+*/
+
 //STANDARD
 if (is_page('home')) {
 	include('templates/pages/home.php');
