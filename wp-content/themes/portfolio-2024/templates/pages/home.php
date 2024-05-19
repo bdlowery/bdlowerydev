@@ -35,7 +35,7 @@
 						<ul class='list-disc pl-8 space-y-1 mt-1'>
 							<li>Software Engineer at <a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://perpetual.education/">Perpetual Education</a>.</li>
 							<li>Frontend Developer at <a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://abetterlife.com/">BetterLife</a>.</li>
-							<li>Co-Founder / Fullstack Developer at <a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://www.unwrapdesign.com/">Unwrap Design</a>.</li>
+							<li>Co-Founder / Full-stack Developer at <a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://www.unwrapdesign.com/">Unwrap Design</a>.</li>
 							<li>Intern at <a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://perpetual.education/">Perpetual Education</a>.</li>
 						</ul>
 					</div>
