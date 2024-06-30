@@ -22,6 +22,10 @@
                   <li>
                      <a class='-mx-2 -my-1 px-2 py-1 underline decoration-sky-500 hover:text-sky-500 hover:no-underline' href="https://github.com/bdlowery">github</a>
                   </li>
+                     <li>
+                     <a class='-mx-2 -my-1 px-2 py-1 underline decoration-sky-500 hover:text-sky-500 hover:no-underline' href="https://read.cv/bdlowery">read.cv</a>
+                  </li>
+                  
                </ul>
                <span class='last-updated'>Last updated: <time datetime="<?= $updatedDateDatetime ?>"><?= $updatedDate; ?></time></span>
             </div>
