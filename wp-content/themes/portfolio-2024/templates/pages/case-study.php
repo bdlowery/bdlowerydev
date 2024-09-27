@@ -16,12 +16,12 @@ if ($projectImage) {
 
 ?>
 
-<article>
+<article class="max-w-3xl mx-auto">
 	<header class="page-header">
 
 		<div aria-hidden='true' class="bg"></div>
 		<div class='case-study-bg' style='background-image: url("<?=$projectHeaderImage?>")'></div>
-		<div class="inner-column">
+		<div class="container">
 			<h1 class="page-title"><?= $name ?></h1>
 			<?php show_edit_post(); ?>
 		</div>
@@ -29,13 +29,13 @@ if ($projectImage) {
 	</header>
 
 	<section class="intro">
-		<div class="inner-column">
-			<p class="description"><?= $description ?></p>
+		<div class="container">
+			<p class="description prose"><?= $description ?></p>
 		</div>
 	</section>
 
 
-	<section class="post">
+	<section class="post prose">
 
 		<?php
 			// this file builds the entire page based on the flexible content fields

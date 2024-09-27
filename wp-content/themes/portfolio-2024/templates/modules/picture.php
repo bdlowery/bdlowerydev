@@ -29,7 +29,7 @@ $id = get_sub_field("id");
 ?>
 
 <section class="picture-module" id="<?= $id ?>">
-  <div class="inner-column">
+  <div class="container prose">
     <?php if ($imageHeading) { ?>
       <h2><?= $imageHeading; ?></h2>
     <?php } ?>

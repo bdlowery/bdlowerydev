@@ -1,8 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./**/*.php"],
-  theme: {
-    screens: {
+	content: ['./**/*.php'],
+	theme: {
+		screens: {
 			xs: '375px',
 			'2xs': '420px',
 			sm: '640px',
@@ -11,7 +11,7 @@ module.exports = {
 			xl: '1280px',
 			'2xl': '1536px',
 		},
-    container: {
+		container: {
 			center: true,
 			padding: {
 				DEFAULT: '1rem',
@@ -28,7 +28,7 @@ module.exports = {
 				// '2xl': '1400px',
 			},
 		},
-    extend: {},
-  },
-  plugins: [require('@tailwindcss/typography')],
-};
+		extend: {},
+	},
+	plugins: [require('@tailwindcss/typography')],
+}

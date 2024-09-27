@@ -2,7 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-/* npx tailwindcss -i ./styles/tailwind.css -o ./src/style.css --watch */
+/* 
+Run this command to get tailwind to work:
+npx tailwindcss -i ./styles/tailwind.css -o style.css --watch 
+
+*/
 
 .scary {
   display: inline-block;
