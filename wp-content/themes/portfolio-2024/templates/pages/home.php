@@ -25,7 +25,7 @@
 				<div>
 					<h2 class='font-medium text-lg'>Currently I'm</h2>
 					<ul class='list-disc pl-8 space-y-1 mt-1'>
-						<li>Building web apps and small business sites at <a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://www.unwrapdesign.com/">Unwrap Design</a>.</li>
+						<li>Building web apps and small business sites at <a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://www.unwrapdesign.com/?ref=bdlowery.dev">Unwrap Design</a>.</li>
 
 					</ul>
 				</div>
@@ -35,7 +35,7 @@
 						<ul class='list-disc pl-8 space-y-1 mt-1'>
 							<li>Software Engineer at <a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://perpetual.education/">Perpetual Education</a>.</li>
 							<li>Frontend Developer at <a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://abetterlife.com/">BetterLife</a>.</li>
-							<li>Co-Founder / Full-stack Developer at <a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://www.unwrapdesign.com/">Unwrap Design</a>.</li>
+							<li>Co-Founder / Full-stack Developer at <a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://www.unwrapdesign.com/?ref=bdlowery.dev">Unwrap Design</a>.</li>
 						
 						</ul>
 					</div>
@@ -53,7 +53,7 @@
 					<h2 class='font-medium text-lg'>A couple projects</h2>
 					<ul class='list-disc pl-8 space-y-1 mt-1'>
 						<li> A niche job board for Plumbers - 
-							<a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://www.plumberjobsusa.com/">Plumber Jobs USA</a>.
+							<a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://www.plumberjobsusa.com/?ref=bdlowery.dev">Plumber Jobs USA</a>.
 						</li>
 						<li>
 							A website for a local cabinet painting business - <a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://www.essentialcabinetpainting.com/">Essential Cabinet Painting</a>.
