@@ -22,8 +22,11 @@
                   <li>
                      <a class='-mx-2 -my-1 px-2 py-1 underline decoration-sky-500 hover:text-sky-500 hover:no-underline' href="https://github.com/bdlowery">github</a>
                   </li>
-                     <li>
+                  <li>
                      <a class='-mx-2 -my-1 px-2 py-1 underline decoration-sky-500 hover:text-sky-500 hover:no-underline' href="https://read.cv/bdlowery">read.cv</a>
+                  </li>
+                   <li>
+                     <a class='-mx-2 -my-1 px-2 py-1 underline decoration-sky-500 hover:text-sky-500 hover:no-underline' href="https://codepen.io/bdlowery">codepen</a>
                   </li>
                   
                </ul>
