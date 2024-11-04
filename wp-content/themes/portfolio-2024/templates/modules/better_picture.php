@@ -1,15 +1,14 @@
-
 <?php
 
-	$header = get_sub_field('header');
+$header = get_sub_field('header');
 
 ?>
 
 
-<section class="better-picture">
-	<div class="inner-column">
-		<h2><?=$header?></h2>
-		<?php 
+<div class="better-picture">
+	<div class="">
+		<h2><?= $header ?></h2>
+		<?php
 		// access the fields within the repeater.
 		while (have_rows('picture_group')) {
 			the_row();
@@ -21,29 +20,29 @@
 			$image = get_sub_field('image')['url']; // image url. bdlowery.dev/wp-content/image.jpg
 			$description = get_sub_field('description'); // text underneath image.
 
-			?>
+		?>
 			<div class="picture-module">
 
-				<?php if($hasSubHeading) { ?>
-					<h3><?=$subHeading?></h3>
+				<?php if ($hasSubHeading) { ?>
+					<h3><?= $subHeading ?></h3>
 				<?php } ?>
 
-				<?php if($hasIntro) { ?>
+				<?php if ($hasIntro) { ?>
 					<div class="module-intro">
-						<?=$introduction?>
+						<?= $introduction ?>
 					</div>
 				<?php } ?>
 
 				<picture>
-					<img src="<?=$image?>" alt="">
+					<img src="<?= $image ?>" alt="">
 				</picture>
 
 				<div class="description">
-					<?=$description?>
+					<?= $description ?>
 				</div>
 
 			</div>
 		<?php } ?>
 
 	</div>
-</section>
+</div>

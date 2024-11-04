@@ -12,9 +12,9 @@ while (have_rows('goal')) {
 ?>
 
 <section class="goal-module">
-	<div class="inner-column">
-		<goal>
+	<div class="container">
+		<div>
 			<p><?= $goalContent ?></p>
-		</goal>
+		</div>
 	</div>
 </section>

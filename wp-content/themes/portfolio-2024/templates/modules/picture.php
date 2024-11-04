@@ -7,20 +7,20 @@ $hasIntro = get_sub_field("has_intro");
 $intro = get_sub_field("intro");
 
 $hasSecondImage = get_sub_field("has_second_image");
-if($hasSecondImage) {
+if ($hasSecondImage) {
   $secondImage = get_sub_field("second_image")["url"];
   $secondDescription = get_sub_field("second_description");
 }
 
 $hasThirdImage = get_sub_field("has_third_image");
-if($hasThirdImage) {
+if ($hasThirdImage) {
   $thirdImage = get_sub_field("third_image")["url"];
   $thirdDescription = get_sub_field("third_description");
 }
 
 $hasFourthImage = get_sub_field("has_fourth_image");
 
-if($hasFourthImage) {
+if ($hasFourthImage) {
   $fourthImage = get_sub_field("fourth_image")["url"];
   $fourthDescription = get_sub_field("fourth_description");
 }
@@ -28,8 +28,8 @@ if($hasFourthImage) {
 $id = get_sub_field("id");
 ?>
 
-<section class="picture-module" id="<?= $id ?>">
-  <div class="container prose">
+<div class="picture-module" id="<?= $id ?>">
+  <div class="prose">
     <?php if ($imageHeading) { ?>
       <h2><?= $imageHeading; ?></h2>
     <?php } ?>
@@ -63,4 +63,4 @@ $id = get_sub_field("id");
       <?= $fourthDescription ?>
     <?php } ?>
   </div>
-</section>
+</div>

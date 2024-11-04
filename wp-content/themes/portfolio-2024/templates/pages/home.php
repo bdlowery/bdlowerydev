@@ -1,6 +1,6 @@
 <section class='relative'>
 	<div class='absolute bg-[url(https://ucarecdn.com/729db6a2-40c0-472a-8384-f45a325999b5/noise.svg)] top-0 w-full h-full opacity-30 -z-10'></div>
-	<div class="container">
+	<div class="container max-w-5xl mx-auto px-14 sm:px-16">
 		<div class='grid gap-10 py-20 md:py-32'>
 			<div class='relative'>
 				<h1 class="text-4xl sm:text-5xl font-medium">I'm a
@@ -36,12 +36,12 @@
 							<li>Software Engineer at <a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://perpetual.education/">Perpetual Education</a>.</li>
 							<li>Frontend Developer at <a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://abetterlife.com/">BetterLife</a>.</li>
 							<li>Co-Founder / Full-stack Developer at <a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://www.unwrapdesign.com/?ref=bdlowery.dev">Unwrap Design</a>.</li>
-						
+
 						</ul>
 					</div>
 					<div>
 						<h2 class='font-medium text-lg'>Education</h2>
-						<ul class='list-disc pl-8 space-y-1 mt-1''>
+						<ul class='list-disc pl-8 space-y-1 mt-1'>
 							<li>B.S. in Computer Science</li>
 							<li>Associates of Math</li>
 							<li>Associates of Science</li>
@@ -52,7 +52,7 @@
 				<div class='mt-10'>
 					<h2 class='font-medium text-lg'>A couple projects</h2>
 					<ul class='list-disc pl-8 space-y-1 mt-1'>
-						<li>A niche job board for Plumbers - 
+						<li>A niche job board for Plumbers -
 							<a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://www.plumberjobsusa.com/?ref=bdlowery.dev">Plumber Jobs USA</a>.
 						</li>
 						<li>

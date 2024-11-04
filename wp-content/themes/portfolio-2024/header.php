@@ -8,7 +8,7 @@
 
 
 	<header class='border-b border-zinc-200'>
-		<div class="container">
+		<div class="container max-w-5xl mx-auto px-14 sm:px-16">
 			<div class='flex justify-between py-2'>
 				<?php require('templates/components/menu-logo.php') ?>
 				<?php require('templates/components/menu-header.php'); ?>
