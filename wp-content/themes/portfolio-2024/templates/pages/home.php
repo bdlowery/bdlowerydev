@@ -1,7 +1,7 @@
 <section class='relative'>
 	<div class='absolute bg-[url(https://ucarecdn.com/729db6a2-40c0-472a-8384-f45a325999b5/noise.svg)] top-0 w-full h-full opacity-30 -z-10'></div>
 	<div class="container max-w-5xl mx-auto px-4 sm:px-16">
-		<div class='grid gap-10 py-20 md:py-32'>
+		<div class='grid gap-14 py-14 sm:py-20 sm:gap-20'>
 			<div class='relative'>
 				<h1 class="text-2xl sm:text-5xl font-medium">I'm a
 					<div class='font-bold inline-block relative'>
