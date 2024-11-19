@@ -8,10 +8,10 @@
 
    <footer class='bg-zinc-900 py-10 overflow-hidden relative z-[1]'>
       <div class="background-grain"></div>
-      <div class="container max-w-5xl mx-auto px-14 sm:px-16">
+      <div class="container max-w-5xl mx-auto px-4 sm:px-16">
          <div class="text-white flex flex-row justify-between">
             <div class="grid gap-8 links-group">
-               <ul class='flex flex-row gap-6'>
+               <ul class='flex flex-row flex-wrap gap-6'>
                   <li>
                      <a class=' -mx-2 -my-1 px-2 py-1 underline decoration-sky-500 hover:text-sky-500 hover:no-underline' href="https://x.com/bdlowery2">x</a>
                   </li>

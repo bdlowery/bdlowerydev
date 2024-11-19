@@ -1120,12 +1120,12 @@ video {
   z-index: -10;
 }
 
-.z-\[1\] {
-  z-index: 1;
-}
-
 .z-10 {
   z-index: 10;
+}
+
+.z-\[1\] {
+  z-index: 1;
 }
 
 .-mx-2 {
@@ -1204,10 +1204,6 @@ video {
   width: 1px;
 }
 
-.max-w-3xl {
-  max-width: 48rem;
-}
-
 .max-w-5xl {
   max-width: 64rem;
 }
@@ -1226,6 +1222,10 @@ video {
 
 .flex-col {
   flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .justify-between {
@@ -1264,10 +1264,6 @@ video {
   white-space: nowrap;
 }
 
-.rounded {
-  border-radius: 0.25rem;
-}
-
 .rounded-lg {
   border-radius: 0.5rem;
 }
@@ -1304,20 +1300,17 @@ video {
   background-image: url(https://ucarecdn.com/729db6a2-40c0-472a-8384-f45a325999b5/noise.svg);
 }
 
-.bg-\[url\(\'https\:\/\/peprojects\.dev\/alpha-2\/purplebox\.jpg\'\)\] {
-  background-image: url('https://peprojects.dev/alpha-2/purplebox.jpg');
-}
-
-.bg-\[url\(\'http\:\/\/localhost\:5757\/wp-content\/uploads\/layout-in-paradise-image-scaled\.jpg\'\)\] {
-  background-image: url('http://localhost:5757/wp-content/uploads/layout-in-paradise-image-scaled.jpg');
-}
-
 .bg-cover {
   background-size: cover;
 }
 
 .bg-center {
   background-position: center;
+}
+
+.px-14 {
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
 }
 
 .px-2 {
@@ -1345,27 +1338,22 @@ video {
   padding-bottom: 5rem;
 }
 
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
-.px-3\.5 {
-  padding-left: 0.875rem;
-  padding-right: 0.875rem;
-}
-
-.px-14 {
-  padding-left: 3.5rem;
-  padding-right: 3.5rem;
+.pb-20 {
+  padding-bottom: 5rem;
 }
 
 .pl-8 {
   padding-left: 2rem;
 }
 
-.pb-20 {
-  padding-bottom: 5rem;
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .text-4xl {
@@ -1383,19 +1371,9 @@ video {
   line-height: 1.75rem;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .font-bold {
@@ -1404,10 +1382,6 @@ video {
 
 .font-medium {
   font-weight: 500;
-}
-
-.font-semibold {
-  font-weight: 600;
 }
 
 .text-white {
@@ -1429,14 +1403,6 @@ video {
 
 .opacity-40 {
   opacity: 0.4;
-}
-
-.opacity-50 {
-  opacity: 0.5;
-}
-
-.opacity-70 {
-  opacity: 0.7;
 }
 
 .opacity-80 {
@@ -1569,6 +1535,10 @@ body {
   color: rgb(14 165 233 / var(--tw-text-opacity));
 }
 
+.hover\:underline:hover {
+  text-decoration-line: underline;
+}
+
 .hover\:no-underline:hover {
   text-decoration-line: none;
 }
@@ -1578,9 +1548,8 @@ body {
     display: block;
   }
 
-  .sm\:px-4 {
-    padding-left: 1rem;
-    padding-right: 1rem;
+  .sm\:flex-row {
+    flex-direction: row;
   }
 
   .sm\:px-16 {

@@ -14,6 +14,10 @@ if (is_page('home')) {
 	include('templates/pages/home.php');
 }
 
+// if (is_page('about')) {
+// 	include('templates/pages/about.php');
+// }
+
 // if (is_page('writing')) {
 // 	include('templates/pages/writing.php');
 // }
