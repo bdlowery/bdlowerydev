@@ -34,7 +34,7 @@
 						<h2 class='font-medium text-lg'>Work experience</h2>
 						<ul class='list-disc pl-8 space-y-1 mt-1'>
 							<li>Software Engineer at <a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://perpetual.education/">Perpetual Education</a>.</li>
-							<li>Frontend Developer at <a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://abetterlife.com/">BetterLife</a>.</li>
+							<li>Front-end Developer at <a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://abetterlife.com/">BetterLife</a>.</li>
 							<li>Designer / Fullstack Developer at <a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://www.unwrapdesign.com/?ref=bdlowery.dev">Unwrap Design</a>.</li>
 						</ul>
 					</div>
@@ -50,21 +50,21 @@
 
 				<div class='mt-10'>
 					<h2 class='font-medium text-lg'>Notable Projects</h2>
+
 					<ul class='list-disc pl-8 space-y-1 mt-1'>
-						<li>A niche job board for Plumbers -
-							<a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://www.plumberjobsusa.com/?ref=bdlowery.dev">Plumber Jobs USA</a>.
+						<li><a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://www.plumberjobsusa.com/?ref=bdlowery.dev">Plumber Jobs USA</a> - A job board for plumbers. Used by thousands of plumbers every month.
 						</li>
 						<li>
-							A marketing website for a local cabinet painting business - <a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://www.essentialcabinetpainting.com/">Essential Cabinet Painting</a>.
+							<a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://www.essentialcabinetpainting.com/">Essential Cabinet Painting</a> - A marketing website for a local cabinet painting business.
 						</li>
 						<li>
-							A marketing website for a local plumbing business - <a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://www.allphaseplumbinginc.com/">All Phase Plumbing</a>.
+							<a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://www.allphaseplumbinginc.com/">All Phase Plumbing</a> - A marketing website for a local plumbing business.
 						</li>
 						<li>
-							A marketing website for a local dent removal company - <a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://www.aaadentremoval.com/">AAA Dent Removal</a>.
+							<a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://www.aaadentremoval.com/">AAA Dent Removal</a> - A marketing website for a local dent removal company.
 						</li>
 						<li>
-							A marketing website for a web design company - <a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://www.unwrapdesign.com/">Unwrap Design</a>.
+							<a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://www.unwrapdesign.com/">Unwrap Design</a> - A marketing website for a web design company.
 						</li>
 					</ul>
 				</div>
