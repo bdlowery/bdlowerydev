@@ -49,7 +49,7 @@
 				</div>
 
 				<div class='mt-10'>
-					<h2 class='font-medium text-lg'>Notable Projects</h2>
+					<h2 class='font-medium text-lg'>Projects</h2>
 
 					<ul class='list-disc pl-8 space-y-1 mt-1'>
 						<li><a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://www.plumberjobsusa.com/?ref=bdlowery.dev">Plumber Jobs USA</a> - A job board for plumbers. Used by thousands of plumbers every month.
