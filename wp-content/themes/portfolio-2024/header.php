@@ -16,5 +16,7 @@
 		</div>
 	</header>
 
-	<main class='page-content' id='page-content' aria-label='Page content'>
+	<main class='page-content relative' id='page-content' aria-label='Page content'>
+			<div class='absolute bg-[url(https://ucarecdn.com/729db6a2-40c0-472a-8384-f45a325999b5/noise.svg)] top-0 w-full h-full opacity-30 -z-10'></div>
+
 		<!-- start of page-content -->
