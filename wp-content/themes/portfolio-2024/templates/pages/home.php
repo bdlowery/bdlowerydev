@@ -55,7 +55,7 @@
 						<li><a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://www.plumberjobsusa.com/?ref=bdlowery.dev">Plumber Jobs USA</a> - A job board for plumbers. Used by thousands of plumbers every month.
 						</li>
 						<li>
-							<a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://www.unwrapdesign.com/">Unwrap Design</a> - Marketing websites and web apps for small businesses.
+							<a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://www.unwrapdesign.com/">Unwrap Design</a> - Small business websites and web apps.
 						</li>
 					</ul>
 				</div>
