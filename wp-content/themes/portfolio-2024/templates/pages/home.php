@@ -55,16 +55,7 @@
 						<li><a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://www.plumberjobsusa.com/?ref=bdlowery.dev">Plumber Jobs USA</a> - A job board for plumbers. Used by thousands of plumbers every month.
 						</li>
 						<li>
-							<a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://www.essentialcabinetpainting.com/">Essential Cabinet Painting</a> - A marketing website for a local cabinet painting business.
-						</li>
-						<li>
-							<a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://www.allphaseplumbinginc.com/">All Phase Plumbing</a> - A marketing website for a local plumbing business.
-						</li>
-						<li>
-							<a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://www.aaadentremoval.com/">AAA Dent Removal</a> - A marketing website for a local dent removal company.
-						</li>
-						<li>
-							<a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://www.unwrapdesign.com/">Unwrap Design</a> - A marketing website for a web design company.
+							<a class='decoration-sky-500 hover:text-sky-500 hover:no-underline underline' href="https://www.unwrapdesign.com/">Unwrap Design</a> - Marketing websites and web apps for small businesses.
 						</li>
 					</ul>
 				</div>
